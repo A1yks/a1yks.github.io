@@ -41,6 +41,9 @@ body header{
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.7s;
 }
 
 header nav{
