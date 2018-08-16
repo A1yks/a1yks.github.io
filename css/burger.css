@@ -58,6 +58,7 @@ html body{
     justify-content: center;
     z-index: 999999999;
     transform: translateX(-100%);
+    transition: all 0.3s;
     top: 0;
     left: 0;
 }
@@ -65,6 +66,7 @@ html body{
 .burger-modal ul {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
 }
 
 .burger-modal ul * {
@@ -84,6 +86,7 @@ html body{
     border: none;
     background: none;
     border-radius: 50%;
+    font-size: 25px;
 }
 
 #burger-close::after{
