@@ -59,7 +59,7 @@ header nav{
     justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
 .logo{
@@ -72,7 +72,7 @@ header nav{
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    -ms-flex-preferred-size: 200px;
+    -ms-flex-preferred-size: 25rem;
     flex-basis: 25rem;
 }
 
@@ -128,9 +128,9 @@ header nav{
     position: absolute;
     display: block;
     width: 100%;
-    height: 2px;
+    height: 0.2rem;
     background: #fff;
-    bottom: -14px;
+    bottom: -1.4rem;
 }
 
 .btn{
@@ -143,7 +143,7 @@ header nav{
     text-align: center;
     line-height: 4.7rem;
     border: 1px solid #fff;
-    border-radius: 100px;
+    border-radius: 10rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
@@ -167,8 +167,8 @@ header .inf{
     align-items: center;
     color: #fff;
     text-align: center;
-    -ms-flex-preferred-size: 190px;
-    flex-basis: 190px;
+    -ms-flex-preferred-size: 19rem;
+    flex-basis: 19rem;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -184,22 +184,22 @@ header .inf{
     content: "";
     display: block;
     position: absolute;
-    width: 24px;
+    width: 2.4rem;
     height: 1px;
     background: #fff;
     top: 50%;
-    left: -39px;
+    left: -3.9rem;
 }
 
 .inf span::after{
     content: "";
     display: block;
     position: absolute;
-    width: 24px;
+    width: 2.4rem;
     height: 1px;
     background: #fff;
     top: 50%;
-    right: -39px;
+    right: -3.9rem;
 }
 
 .inf h1{
@@ -226,7 +226,7 @@ header .inf{
     -ms-flex-align: center;
     align-items: center;
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     -webkit-transition: background 0.3s, color 0.3s, opacity 0.8s, top 0.8s !important;
     transition: background 0.3s, color 0.3s, opacity 0.8s, top 0.8s !important;
 }
@@ -294,7 +294,7 @@ header .inf{
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .p-inf span{
@@ -308,22 +308,22 @@ header .inf{
     content: "";
     display: block;
     position: absolute;
-    width: 24px;
+    width: 2.4rem;
     height: 1px;
     background: #6e45e2;
     top: 50%;
-    left: -39px;
+    left: -3.9rem;
 }
 
 .p-inf span::after{
     content: "";
     display: block;
     position: absolute;
-    width: 24px;
+    width: 2.4rem;
     height: 1px;
     background: #6e45e2;
     top: 50%;
-    right: -39px;
+    right: -3.9rem;
 }
 
 .p-inf h2{
@@ -346,8 +346,6 @@ header .inf{
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -358,18 +356,18 @@ header .inf{
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-around;
-    -ms-flex-preferred-size: 1425px;
-    flex-basis: 1425px;
+    -ms-flex-preferred-size: 14.25rem;
+    flex-basis: 142.5rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    height: 64s;
+    height: 64rem;
 }
 
 .p-plans .p-plan{
     height: 64rem;
     width: 42rem;
     border: 1px solid #d7dbe8;
-    border-radius: 25px;
+    border-radius: 2.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -399,7 +397,7 @@ header .inf{
 }
 
 .p-plan img{
-    height: 100px;
+    height: 10rem;
 }
 
 .p-plan span{
@@ -410,7 +408,7 @@ header .inf{
 
 .p-plan p:nth-of-type(1){
     font-weight: 500;
-    font-size: 60px;
+    font-size: 6rem;
     color: #4f4f6f;
 }
 
@@ -418,15 +416,15 @@ header .inf{
     vertical-align: top;
     font-size: 1.8rem;
     position: relative;
-    top: 10px;
-    left: -7px;
+    top: 1rem;
+    left: -0.7rem;
 }
 
 .p-plan sub{
     vertical-align: bottom;
     font-size: 1.8rem;
     position: relative;
-    bottom: 7px;
+    bottom: 0.7rem;
 }
 
 .p-plan p:nth-of-type(2){
@@ -446,7 +444,7 @@ header .inf{
     font-weight: 700;
     font-size: 1.2rem;
     cursor: pointer;
-    width: 190px;
+    width: 19rem;
 }
 
 .p-plan .btn:hover{
@@ -478,7 +476,7 @@ header .inf{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .data-inf{
@@ -567,8 +565,8 @@ footer .f-nav{
     justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 50px;
-    padding-bottom: 30px;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
     border-bottom: 1px solid #f2f2f3;
 }
 
@@ -623,8 +621,8 @@ footer .f-b{
     -ms-flex-pack: justify;
     justify-content: space-between;
     width: 90%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -640,8 +638,7 @@ footer .f-b{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-preferred-size: 151px;
-    flex-basis: 151px;
+    width: 15.1rem;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -678,7 +675,7 @@ footer .f-b{
 }
 
 .burger-modal ul *{
-    margin-bottom: 17px;
+    margin-bottom: 1.7rem;
 }
 
 .burger-modal ul li a{
@@ -713,7 +710,7 @@ footer .f-b{
     }
     
     .p-inf{
-        margin-top: 20px;
+        margin-top: 2rem;
     }
     
     .p-plans{
@@ -724,7 +721,7 @@ footer .f-b{
     }
     
     .p-plans .p-plan{
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     
     #burger{
@@ -739,7 +736,7 @@ footer .f-b{
     }
     
     .p-inf{
-        margin-top: 20px;
+        margin-top: 2rem;
     }
     
     .p-plans{
@@ -750,7 +747,7 @@ footer .f-b{
     }
     
     .p-plans .p-plan{
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     
     html{
@@ -773,7 +770,7 @@ footer .f-b{
     }
     
     .nav ul li::after{
-        top: 25px;
+        top: 2.5rem;
     }
     
     .nav ul li a{
@@ -802,7 +799,7 @@ footer .f-b{
     }
     
     .p-inf{
-        margin-top: 20px;
+        margin-top: 2rem;
     }
     
     .p-plans{
@@ -813,7 +810,7 @@ footer .f-b{
     }
     
     .p-plans .p-plan{
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     
     nav{
@@ -832,7 +829,7 @@ footer .f-b{
     }
     
     .nav ul li::after{
-        top: 25px;
+        top: 2.5rem;
     }
     
     .nav ul li a{
@@ -865,7 +862,7 @@ footer .f-b{
     }
     
     .p-inf{
-        margin-top: 20px;
+        margin-top: 2rem;
     }
     
     .p-plans{
@@ -876,7 +873,7 @@ footer .f-b{
     }
     
     .p-plans .p-plan{
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     
     nav{
@@ -895,7 +892,7 @@ footer .f-b{
     }
     
     .nav ul li::after{
-        top: 25px;
+        top: 2.5rem;
     }
     
     .nav ul li a{
@@ -928,7 +925,7 @@ footer .f-b{
     }
     
     .p-inf{
-        margin-top: 20px;
+        margin-top: 2rem;
     }
     
     .p-plans{
@@ -939,7 +936,7 @@ footer .f-b{
     }
     
     .p-plans .p-plan{
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     
     nav{
@@ -958,7 +955,7 @@ footer .f-b{
     }
     
     .nav ul li::after{
-        top: 25px;
+        top: 2.5rem;
     }
     
     .nav ul li a{
@@ -1011,7 +1008,7 @@ footer .f-b{
     }
     
     .p-inf{
-        margin-top: 20px;
+        margin-top: 2rem;
     }
     
     .p-plans{
@@ -1022,7 +1019,7 @@ footer .f-b{
     }
     
     .p-plans .p-plan{
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
     
     nav{
@@ -1041,7 +1038,7 @@ footer .f-b{
     }
     
     .nav ul li::after{
-        top: 25px;
+        top: 2.5rem;
     }
     
     .nav ul li a{
